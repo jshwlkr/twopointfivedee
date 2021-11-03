@@ -1,0 +1,30 @@
+/**
+ * https://css-tricks.com/aspect-ratio-boxes/
+ */
+
+.wp-block-oddities-twopointfivedee-wrap {
+	position: relative;
+	height: 0;
+}
+
+.wp-block-oddities-twopointfivedee-wrap > svg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+}
+
+/**
+ * https://css-tricks.com/revisiting-prefers-reduced-motion-the-reduced-motion-media-query/
+ */
+
+@media screen and
+  (prefers-reduced-motion: reduce),
+  (update: slow) {
+	.wp-block-oddities-twopointfivedee-wrap * {
+    animation-duration: 0.001ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.001ms !important;
+  }
+}

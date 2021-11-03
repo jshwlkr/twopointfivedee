@@ -1,0 +1,14 @@
+{
+	"name": "oddities/twopointfivedee",
+	"title": "Two.fivedee",
+	"category": "media",
+	"icon": "images-alt",
+	"description": "A block for displaying an animated \"2.5D\" image effect.",
+	"textdomain": "twopointfivedee",
+	"supports": {
+		"html": false
+	},
+	"editorScript": "file:./build/index.js",
+	"editorStyle": "file:./build/index.css",
+	"style": "file:./build/style-index.css"
+}
