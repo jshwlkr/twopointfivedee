@@ -30,8 +30,5 @@ build/
 dist/
 svn/
 
-yarn.lock
-package-lock.json
-
 .vscode/
 twopointfivedee.zip
