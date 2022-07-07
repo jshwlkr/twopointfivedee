@@ -35,9 +35,4 @@ Be aware of how the animated subjects interact with the images edges, you may no
 This plugin is mostly an experiment, if there is enough of a response I may devote more resources to it.
 However, at this time I offer no support for this plugin.
 
-== Changelog ==
-
-= 1.0.0 =
-* Release
-
 
