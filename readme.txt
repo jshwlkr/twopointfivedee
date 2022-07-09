@@ -15,6 +15,8 @@ A block for displaying an animated "2.5D" image effect.
 This plugin provides a block that layers a series of .png files on top of each other and animates each individual layer to create a specific kind of parallax effect.
 (Sometimes referred to as the "Ken Burns effect".) The block requires at least 2 images, both a back layer and a mid layer, but can accommodate 3. Images must all be the same size.
 
+This plugin supports Git Updater.
+
 == Crafting Good Images ==
 
 A succesful effect is more about the images and not so much about the technology.
