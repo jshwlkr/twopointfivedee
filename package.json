@@ -34,7 +34,7 @@
 		  "@google/semantic-release-replace-plugin",
 		  {
 			"replacements": [
-			  {
+			{
 				"files": [
 				  "twopointfivedee.php"
 				],
@@ -49,13 +49,13 @@
 				  }
 				],
 				"countMatches": true
-			  },
-						  {
-							  "files": [
-								  "package.json"
-							  ],
-							  "from": "\"version\": \".*\",",
-							  "to": "\"version\": \"${nextRelease.version}\",",
+			},
+			{
+				"files": [
+					"package.json"
+				],
+				"from": "version: .*",
+				"to": "version: ${nextRelease.version}",
 							  "results": [
 								  {
 									  "file": "package.json",
