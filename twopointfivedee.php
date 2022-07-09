@@ -6,9 +6,9 @@
  * Author:          Joshua Walker
  * License:         GPL-2.0-or-later
  * License URI:     https://www.gnu.org/licenses/gpl-2.0.html
- * Text Domain:     twopointfivedee
+ * Text Domain:       twopointfivedee
  * GitHub Plugin URI: jshwlkr/twopointfivedee
- * Release Asset: true
+ * Release Asset:     true
  * Primary Branch:    main
  *
  * @package         oddities
