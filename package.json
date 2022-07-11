@@ -1,7 +1,7 @@
 {
 	"name":"twopointfivedee",
-	"description":"A block for displaying an animated \"2.5D\" image effect.",
-	"version":"1.0.0",
+	"description":"A block for displaying an animated 2.5D image effect.",
+	"version": "1.0.0",
 	"author":{
 	   "name":"Joshua Walker",
 	   "url":"https://jshwlkr.info"
@@ -49,22 +49,6 @@
 						 }
 					  ],
 					  "countMatches":true
-				   },
-				   {
-					  "files":[
-						 "package.json"
-					  ],
-					  "from":"\"version\": \".*\",",
-					  "to":"\"version\": \"${nextRelease.version}\",",
-					  "results":[
-						 {
-							"file":"package.json",
-							"hasChanged":true,
-							"numMatches":1,
-							"numReplacements":1
-						 }
-					  ],
-					  "countMatches":true
 				   }
 				]
 			 }
@@ -73,8 +57,7 @@
 			 "@semantic-release/git",
 			 {
 				"assets":[
-				   "twopointfivedee.php",
-				   "package.json"
+				   "twopointfivedee.php"
 				],
 				"message":"chore(release): ${nextRelease.version} [skip ci]"
 			 }
