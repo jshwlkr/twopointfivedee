@@ -21,6 +21,8 @@ jobs:
           node-version: 'lts/*'
       - name: Install dependencies
         run: npm ci
+      - name: Build block
+        run: wp-scripts build --output-path=admin
       - name: Release
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
