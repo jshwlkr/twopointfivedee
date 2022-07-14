@@ -42,7 +42,7 @@ function twopointfivedee_block_init() {
 	);
 	wp_set_script_translations( 'oddities-twopointfivedee-block-editor', 'twopointfivedee' );
 
-	$editor_css = 'admin/index.css';
+	$editor_css = 'admin/style-index.css';
 	wp_register_style(
 		'oddities-twopointfivedee-block-editor',
 		plugins_url( $editor_css, __FILE__ ),
