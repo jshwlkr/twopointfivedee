@@ -3,7 +3,7 @@
  * Plugin Name:     Two.fivedee
  * plugin URI:        https://github.com/jshwlkr/twopointfivedee
  * Description:     A block for displaying an animated "2.5D" image effect.
- * version: 1.0.1
+ * version: 1.0.2
  * Author:          Joshua Walker
  * Author URI:        https://jshwlkr.info
  * License:         GPL-2.0-or-later
